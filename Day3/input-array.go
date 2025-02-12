@@ -1,0 +1,27 @@
+package main
+
+import "fmt"
+
+func main(){
+	var num int
+	fmt.Print("Enter the number of array elements: ")
+	fmt.Scan(&num)
+
+	even := make([]int, num)
+	fmt.Println("Enter ", num, "Even numbers: ")
+
+	for i := 0;i < num; i++{
+		fmt.Scan(&even[i])
+	}
+
+	fmt.Println("Even Numbers are as follows: ", even)
+
+	var remove int
+	fmt.Println("Enter the index to be removed: ", even)
+	fmt.Scan(&remove)
+
+	even = append(even[:remove], even[remove+1:]...)
+
+	fmt.Println("After removing the elements, slice: ", even)
+	
+}

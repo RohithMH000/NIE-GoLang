@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2",
+    "brand": "Toyota",
+    "number": "A3-2124",
+    "type": "SUV",
+    "incoming": "",
+    "outgoing": "6:45 AM",
+    "slot": "A-2"
+  },
+  {
+    "id": "4",
+    "brand": "nano",
+    "number": "A3-5665",
+    "type": "SUV",
+    "incoming": "",
+    "outgoing": "5:45 AM",
+    "slot": "A-2"
+  }
+]
